@@ -155,7 +155,7 @@
   return body-splitter(body, height-func, goal-height, align, splitter)
 }
 
-#let _inner-wrap-content(to-wrap, y-align, grid-func, container-size, ..grid-kwargs) = {
+#let _inner-wrap-content(to-wrap, y-align, grid-func, container-size, ..grid-kwargs) = context {
   let height-func(txt) = _grid-height(grid-func(txt), container-size)
   let goal-height = height-func([])
   if y-align == top {
