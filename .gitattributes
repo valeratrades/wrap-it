@@ -1,0 +1,10 @@
+# Disable LFS for this repository (override global settings)
+*.jpeg !filter !diff !merge
+*.png !filter !diff !merge
+*.pdf !filter !diff !merge
+*.tiff !filter !diff !merge
+*.webp !filter !diff !merge
+*.svg !filter !diff !merge
+*.jpg !filter !diff !merge
+*.gif !filter !diff !merge
+*.bmp !filter !diff !merge
